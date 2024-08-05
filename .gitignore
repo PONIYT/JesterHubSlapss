@@ -57,9 +57,6 @@ else
     end
 end
 
-
-
-if game.PlaceId == 11680140533 then
     local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
     local Window = OrionLib:MakeWindow({Name = "ExoticHub | Slap Battles But You Get Random Gloves", HidePremium = false, IntroEnabled = false, IntroText = "ExoticHub", SaveConfig = true, ConfigFolder = "ExoConfig"})
     
